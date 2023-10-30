@@ -109,27 +109,26 @@ To demonstrate the stability of the model's results, we evaluate and consecutive
 	Now, we will examine the results in various different situations.
 - **Various Metrics Checked in Previous Phases**
 	To assess these metrics, we rely on the test data, and the values of these metrics are evaluated using the test data. The values of these metrics were displayed in the image of the epochs, so it is sufficient to check the confusion matrix.
-	![](https://i.ibb.co/MZr1tPg/2-1.png)
+	![](https://github.com/kimia-mahdinezhad/Seizure-Detection/blob/main/Media/1-Various-Metrics-Checked-in-Previous-Phases.png)
 
 - **Finding the Accuracy Result on the Seizure Interval**
 In this model, the accuracy value on the Seizure interval that has not been visited by the model is equal to 0.8484.
 
 - **Finding the False Alarm Value on the Non-Seizure Interval**
-![enter image description here](https://i.ibb.co/svkVgqF/2-2.png)
+![](https://github.com/kimia-mahdinezhad/Seizure-Detection/blob/main/Media/2-Finding-the-False-Alarm-Value-on-the-Non-Seizure-Interval.png)
 
 - **Plotting Accuracy and Loss from Different Epochs**
-![enter image description here](https://i.ibb.co/qkKCDbb/2-3.png)
+![](https://github.com/kimia-mahdinezhad/Seizure-Detection/blob/main/Media/3-Plotting-Accuracy-and-Loss-from-Different-Epochs.png)
 
 - **Plotting Accuracy Values from Evaluating the Test Data**
-![enter image description here](https://i.ibb.co/yXR9xKT/2-4.png)
+![](https://github.com/kimia-mahdinezhad/Seizure-Detection/blob/main/Media/4-Plotting-Accuracy-Values-from-Evaluating-the-Test-Data.png)
 
 - **Check in case of layer reduction**
 78% accuracy when we remove the second conv1d layer and the result is as follows:
-![enter image description here](https://i.ibb.co/M7g5cBd/2-5.png)
-
+![](https://github.com/kimia-mahdinezhad/Seizure-Detection/blob/main/Media/5-Check-in-case-of-layer-reduction.png)
 - **Check in case of layer addition**
 In this case, as we add a convolutional layer, the accuracy gradually decreases, eventually leading to a divergence in the curve diagram.
-![enter image description here](https://i.ibb.co/MsnBhs6/2-6.png)
+![](https://github.com/kimia-mahdinezhad/Seizure-Detection/blob/main/Media/6-Check-in-case-of-layer-addition.png)
 
 ## System Suggestion
 Our system, through the analysis of EEG signals, segments the data into 5-second intervals and employs predictive modeling to determine the optimal timing for medication administration.
